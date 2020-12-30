@@ -13,7 +13,7 @@ import (
 const filename string = "jobs.csv"
 
 func handleHome(c echo.Context) error {
-	return c.File("home.html")
+	return c.File("index.html")
 }
 
 func handleScrape(c echo.Context) error {
